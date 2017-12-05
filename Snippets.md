@@ -12,3 +12,5 @@
            .((${gip[2]} & ${msk[2]}))\
            .((${gip[3]} & ${msk[3]}))"
            
+#########NETWORKSNIPPET##################
+SetVirtualRoute(ipnr->ip, ip->mask, ip->recip, ip->ifname);
